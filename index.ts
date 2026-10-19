@@ -30,8 +30,8 @@ const client = new Client({
   partials: [Partials.Channel, Partials.GuildMember, Partials.Message],
 });
 
-const welcomeChannelId = "1499822302454616075"; 
-const inviteChannelId = "1499931419277791293";   
+const welcomeChannelId = "1561803660525179114"; 
+const inviteChannelId = "1561803746608947210";   
 const invitesCache = new Map<string, Map<string, number>>();
 
 const commandsData = [

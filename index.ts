@@ -114,7 +114,7 @@ client.on("guildMemberAdd", async (member) => {
     invitesCache.set(guild.id, guildInvites);
 
     if (welcomeChannel) {
-      const welcomeText = `# __BIENVENIDO A UNESTABLE SMP__\n\n¡Bienvenid@ ${member.toString()} a **UnestableSMP**! Gracias por unirte al servidor, esperamos que te diviertas.\n\n> Ve a <#1499823398317195455> para conocer las reglas del servidor.\n> Si tienes alguna duda, abre un ticket en <#1499837719004577973>.\n\n**INFORMACIÓN DEL SERVIDOR**\n\n**IP Java:** \`UnestableSMP.aternos.me\`\n**IP Bedrock:** \`UnestableSMP.aternos.me\` : \`25704\`\n**Tienda:** Próximamente ...`;
+      const welcomeText = `# __BIENVENIDO A UNESTABLE SMP__\n\n¡Bienvenid@ ${member.toString()} a **UnestableSMP**! Gracias por unirte al servidor, esperamos que te diviertas.\n\n> Ve a <#1561803437245603971> para conocer las reglas del servidor.\n> Si tienes alguna duda, abre un ticket en <#1561806032697688085>.\n\n**INFORMACIÓN DEL SERVIDOR**\n\n**IP Java:** \`Proximamente\`\n**IP Bedrock:** \`Proximamente\` : \`Proximamente\`\n**Tienda:** Próximamente ...`;
       await welcomeChannel.send({ content: welcomeText });
     }
 

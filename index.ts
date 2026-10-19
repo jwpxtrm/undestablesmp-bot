@@ -351,7 +351,7 @@ client.on("interactionCreate", async (interaction) => {
 
     if (interaction.commandName === "ip") {
       return await interaction.reply({ 
-        content: "**IP Java:** `UnestableSMP.aternos.me`\n**IP Bedrock:** `UnestableSMP.aternos.me` : `25704`", 
+        content: "**IP Java:** `Proximamente`\n**IP Bedrock:** `Proximamente` : `Proximamente`", 
         ephemeral: true 
       });
     }

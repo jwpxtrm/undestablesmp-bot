@@ -214,7 +214,7 @@ async function closeTicket(channel: TextChannel, executorTag: string, ticketOwne
       transcriptText += `[${time}] ${m.author.tag}:${m.content}\n`;
       if (m.embeds.length > 0) {
         m.embeds.forEach(emb => {
-          transcriptText += ` [Embed: ${emb.title \vert{}\vert{} 'Sin título'} - ${emb.description || 'Sin descripción'}]\n`;
+          transcriptText += ` [Embed: ${emb.title || 'Sin título'} - ${emb.description || 'Sin descripción'}]\n`;
           emb.fields.forEach(f => {
             transcriptText += `   - ${f.name}:${f.value}\n`;
           });
